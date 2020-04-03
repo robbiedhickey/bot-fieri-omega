@@ -1,6 +1,6 @@
 # Overview
 
-To build the repo, you will need a `config.json` file defined at the root with, at minimum, the following parameters:
+To run the project, you will need a `config.json` file defined at the root with, at minimum, the following parameters:
 
 ```json
 {
