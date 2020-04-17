@@ -62,6 +62,6 @@ client.on("debug", console.log);
 // 694632129036025942 : general
 let context = repl.start("> ").context;
 context.client = client;
-context.say = function(msg) {
+context.say = function (msg) {
   client.channels.cache.get("694632129036025942").send(msg);
 };
